@@ -1,0 +1,254 @@
+.experience {
+    height: 100vh;
+    background-image: url('../../assets/bg-neon-crop.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    h2 {
+        text-align: center;
+        padding-top: 3%;
+        color: #feece2;
+        font-weight: 500;
+        margin-bottom: 30px;
+        letter-spacing: 4px;
+    }
+    h4 {
+        color: #feece2;
+        font-weight: 600;
+        margin-top: 10px;
+    }
+    .card {
+        background-color: rgba(255, 255, 255, 0.1);
+        color: #feece2;
+        border: #0e0426;
+        margin-top: 10px;
+    }
+    .card-header {
+        font-size: 1.2em;
+    }
+    .card-title {
+        font-size: 1.2em;
+    }
+    .card-text {
+        font-size: 1em;
+    }
+    .WORK {
+        height: 85%;
+    }
+    .INTERNSHIP {
+        height: 80%;
+    }
+    .organization {
+        height: 90%;
+    }
+    .card:hover {
+        background-color: rgba(13, 3, 35, 0.8);
+        transform: scale(1.05);
+    }
+    .back-btn {
+        margin-top: 20;
+        margin-right: 4;
+    }
+    .back-btn:hover {
+        opacity: 0.9;
+    }
+}
+
+@media (max-width: 600px) {
+    .experience {
+        height: 170vh;
+        .back-btn {
+            margin-top: 15px;
+            height: 26px;
+            .back-icon {
+                display: flex;
+                align-items: center;
+                font-size: small;
+            }
+            span {
+                display: none;
+            }
+        }
+        h2 {
+            font-weight: 300;
+            font-size: 1em;
+            letter-spacing: 2px;
+            margin-bottom: 18px;
+            margin-top: 15px;
+        }
+        .work-icon,
+        .org-icon {
+            display: none;
+        }
+        h4 {
+            font-weight: 300;
+            font-size: 0.9em;
+            margin-left: 10px;
+        }
+        .p-INTERNSHIP {
+            margin-top: 20px;
+        }
+        .card-header {
+            font-size: 0.8em;
+        }
+        .card-title {
+            font-size: 0.8em;
+            h6 {
+                font-size: 12px;
+            }
+        }
+        .card-text {
+            font-size: 0.6em;
+        }
+        .p-organization {
+            margin-top: -12px;
+        }
+    }
+}
+
+@media (min-width: 600px) and (max-width: 768px) {
+    .experience {
+        height: 170vh;
+        .back-btn {
+            margin-top: 15px;
+            height: 26px;
+            width: 15%;
+            .back-icon {
+                display: flex;
+                align-items: center;
+                font-size: small;
+            }
+            span {
+                font-size: 9pt;
+            }
+        }
+        h2 {
+            font-weight: 500;
+            font-size: 1.1em;
+            letter-spacing: 2.5px;
+            margin-bottom: 18px;
+            margin-top: 15px;
+        }
+        .work-icon,
+        .org-icon {
+            display: none;
+        }
+        h4 {
+            font-weight: 400;
+            font-size: 1em;
+            margin-left: 10px;
+        }
+        .p-INTERNSHIP {
+            margin-top: 20px;
+        }
+        .card-header {
+            font-size: 0.9em;
+        }
+        .card-title {
+            font-size: 0.9em;
+            h6 {
+                font-size: 13px;
+            }
+        }
+        .card-text {
+            font-size: 0.75em;
+        }
+        .p-organization {
+            margin-top: -12px;
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .experience {
+        height: 160vh;
+        .back-btn {
+            margin-top: 20px;
+            height: 26px;
+            width: 12%;
+            .back-icon {
+                display: flex;
+                align-items: center;
+                font-size: small;
+            }
+            span {
+                font-size: 9pt;
+            }
+        }
+        h2 {
+            font-weight: 400;
+            font-size: 1.2em;
+            letter-spacing: 2.5px;
+            margin-bottom: 18px;
+            margin-top: 15px;
+        }
+        .work-icon,
+        .org-icon {
+            display: none;
+        }
+        h4 {
+            font-weight: 400;
+            font-size: 1.1em;
+            margin-left: 10px;
+        }
+        .p-INTERNSHIP {
+            margin-top: 20px;
+        }
+        .card-header {
+            font-size: 1em;
+        }
+        .card-title {
+            font-size: 1em;
+            h6 {
+                font-size: 14px;
+            }
+        }
+        .card-text {
+            font-size: 0.85em;
+        }
+        .p-organization {
+            margin-top: -12px;
+        }
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .experience {
+        height: 140vh;
+        .back-btn {
+            margin-top: 20px;
+            height: 28px;
+            width: 9%;
+            .back-icon {
+                display: flex;
+                align-items: center;
+                font-size: small;
+            }
+            span {
+                font-size: 10pt;
+            }
+        }
+        h2 {
+            font-weight: 400;
+            font-size: 1.3em;
+            letter-spacing: 2.5px;
+            margin-top: 15px;
+        }
+        h4 {
+            font-weight: 400;
+            font-size: 1.1em;
+            margin-left: 10px;
+        }
+        .card-header {
+            font-size: 1em;
+        }
+        .card-title {
+            font-size: 1em;
+            h6 {
+                font-size: 14px;
+            }
+        }
+        .card-text {
+            font-size: 0.85em;
+        }
+    }
+}

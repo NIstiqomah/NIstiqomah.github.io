@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.about {
+    height: 100vh;
+    background-image: url('../../assets/bg-neon-edited.jpg');
+    background-size: cover;
+    overflow: hidden;
+    h6 {
+        color: #ffcad4;
+        padding-top: 10px;
+        font-weight: 600;
+    }
+    .p-1 {
+        a {
+            font-size: 25px;
+        }
+    }
+}
+
+.summary {
+    margin-top: 10%;
+    float: left;
+    color: #feece2;
+    text-align: center;
+    h3 {
+        letter-spacing: 2.2px;
+        font-size: 2.4em;
+        margin-bottom: 10px;
+    }
+    span {
+        letter-spacing: 4px;
+        font-size: 1.8em;
+        font-weight: bold;
+        color: #ffcad4;
+    }
+    p {
+        font-size: 1.1em;
+        letter-spacing: 2px;
+        margin-top: 20px;
+    }
+}
+
+.btn {
+    margin-top: 20px;
+    margin-right: 6px;
+}
+
+.btn:hover {
+    opacity: 0.9;
+    transform: scale(1.05);
+}
+
+.woman-img {
+    margin-top: 180px;
+    animation: updown 3s linear infinite;
+    img {
+        width: 100%;
+    }
+}
+
+@keyframes updown {
+    0% {
+        transform: translateY(-20px);
+    }
+    50% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+@media (max-width: 600px) {
+    .about {
+        h6 {
+            font-weight: 300;
+            font-size: 0.8em;
+        }
+        .p-1 {
+            a {
+                font-size: 18px;
+            }
+        }
+    }
+    .summary {
+        h3 {
+            font-size: 1.5em;
+        }
+        span {
+            letter-spacing: 2.5px;
+            font-size: 1.3em;
+        }
+        p {
+            font-size: 0.8em;
+            letter-spacing: 0.2px;
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+    }
+    .btn {
+        margin-top: 5px;
+        margin-right: 3px;
+        height: 25px;
+        span {
+            font-size: 0.7em;
+            display: flex;
+            align-items: center;
+        }
+    }
+    .woman-img {
+        margin-top: -8px;
+        img {
+            width: 60%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}
+
+@media (min-width: 600px) and (max-width: 768px) {
+    .about {
+        h6 {
+            font-weight: 300;
+        }
+        .p-1 {
+            a {
+                font-size: 20px;
+            }
+        }
+    }
+    .summary {
+        h3 {
+            font-size: 1.9em;
+        }
+        span {
+            letter-spacing: 2.7px;
+            font-size: 1.6em;
+        }
+        p {
+            font-size: 0.9em;
+            letter-spacing: 0.4px;
+        }
+    }
+    .btn {
+        margin-top: 5px;
+        margin-right: 3px;
+        span {
+            font-size: 0.8em;
+        }
+    }
+    .woman-img {
+        margin-top: 0px;
+        img {
+            width: 50%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .about {
+        height: 110vh;
+        h6 {
+            font-weight: 400;
+        }
+        .p-1 {
+            a {
+                font-size: 22px;
+            }
+        }
+    }
+    .summary {
+        margin-top: 8%;
+        h3 {
+            font-size: 2em;
+        }
+        span {
+            letter-spacing: 2.8px;
+            font-size: 1.7em;
+        }
+        p {
+            font-size: 1em;
+            letter-spacing: 0.5px;
+        }
+    }
+    .btn {
+        margin-top: 5px;
+        margin-right: 4px;
+        span {
+            font-size: 0.9em;
+        }
+    }
+    .woman-img {
+        margin-top: -40px;
+        img {
+            width: 50%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .about {
+        height: 110vh;
+        h6 {
+            font-weight: 500;
+        }
+        .p-1 {
+            a {
+                font-size: 24px;
+            }
+        }
+    }
+    .summary {
+        margin-top: 6%;
+        h3 {
+            font-size: 2.1em;
+        }
+        span {
+            letter-spacing: 2.9px;
+            font-size: 1.8em;
+        }
+        p {
+            font-size: 1.1em;
+            letter-spacing: 0.6px;
+        }
+    }
+    .btn {
+        margin-top: 5px;
+        margin-right: 4px;
+        span {
+            font-size: 1em;
+        }
+    }
+    .woman-img {
+        margin-top: -40px;
+        img {
+            width: 40%;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+}

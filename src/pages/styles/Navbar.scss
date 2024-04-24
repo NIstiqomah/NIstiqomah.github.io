@@ -1,0 +1,33 @@
+.navbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
+    transition: 0.32s ease-in-out;
+    display: flex;
+    justify-content: space-around !important;
+    height: 100px;
+    align-items: center;
+    color: #ffcad4;
+    .navbar-brand {
+        letter-spacing: 2.2px;
+        h3 {
+            color: #ffcad4;
+        }
+    }
+    .navbar-nav {
+        .nav-link.navbar-link {
+            font-weight: 400;
+            color: #ffcad4 !important;
+            letter-spacing: 0.8px;
+            padding: 0 25px;
+            font-size: 18px;
+            opacity: 0.8;
+        }
+        .navbar-link:hover,
+        .navbar-link.active {
+            opacity: 1;
+            font-weight: 600;
+        }
+    }
+}
