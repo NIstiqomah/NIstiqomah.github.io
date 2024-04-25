@@ -130,7 +130,7 @@ const Home = () => {
                                         }
                                     >
                                         <img
-                                            src="../src/assets/woman-dev2.png"
+                                            src="/woman-dev2.png"
                                             alt="woman"
                                         />
                                     </div>

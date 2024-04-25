@@ -9,55 +9,55 @@ const Achievement = () => {
     const numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8];
     const listCertificate = [
         {
-            path: '../src/assets/sertif-udemy-katalon.png',
+            path: '/sertif-udemy-katalon.png',
             period: '2023',
             title: 'Udemy: Katalon Studio Beginners – Hands on Training',
             text: '17.5 hours training with the main material Katalon Studio for QA automation',
         },
         {
-            path: '../src/assets/sertif-fga-react.png',
+            path: '/sertif-fga-react.png',
             period: '2022',
             title: 'FGA: React Js for Web Development',
             text: '1 month training with the main material Git, Javascript, and React JS with 2 main projects',
         },
         {
-            path: '../src/assets/sertif-vsga-webdev.png',
+            path: '/sertif-vsga-webdev.png',
             period: '2021',
             title: 'VSGA: Junior Web Developer',
             text: '90 hours of training with 15 main materials and 1 final project',
         },
         {
-            path: '../src/assets/sertif-fga-personal-branding.png',
+            path: '/sertif-fga-personal-branding.png',
             period: '2021',
             title: 'Personal Branding Training',
             text: '8 hours post training organized by Digital Talent Scholarship for personal branding skills that the company pays attention to',
         },
         {
-            path: '../src/assets/sertif-fga-english.png',
+            path: '/sertif-fga-english.png',
             period: '2021',
             title: 'English Training',
             text: '12 hours post training organized by Digital Talent Scholarship for English skill preparation',
         },
         {
-            path: '../src/assets/sertif-fga-interpersonal.png',
+            path: '/sertif-fga-interpersonal.png',
             period: '2021',
             title: 'Interpersonal Skill Training',
             text: '10 hours post-training organized by Digital Talent Scholarship for interpersonal skills needed at work',
         },
         {
-            path: '../src/assets/sertif-pd-android-bootcamp.png',
+            path: '/sertif-pd-android-bootcamp.png',
             period: '2021',
             title: 'Android Developer Short-Bootcamp',
             text: '2 days short-bootcamp Android developer organized by Peduli Digital',
         },
         {
-            path: '../src/assets/sertif-iot.png',
+            path: '/sertif-iot.png',
             period: '2021',
             title: 'Design and Implementation IoT Application Information System',
             text: '1 month training organized by Andromedia Group to learn IoT design and implementation, with a final project using Cisco Packet Tracer',
         },
         {
-            path: '../src/assets/sertif-lmt.png',
+            path: '/sertif-lmt.png',
             period: '2019',
             title: 'Life Manajement Training',
             text: '54 hours of training on time management, organization and learning how to lead and work with new people',
@@ -107,7 +107,7 @@ const Achievement = () => {
                                                 : ''
                                         }
                                     >
-                                        <img src="../src/assets/award.png" alt="award" />
+                                        <img src="/award.png" alt="award" />
                                     </div>
                                 )}
                             </TrackVisibility>
@@ -243,7 +243,7 @@ const Achievement = () => {
                         <Col sm={12} md={4}>
                             <Card.Img
                                 className="psertif-img mx-auto d-block"
-                                src="../src/assets/sertif-isriti.png"
+                                src="/sertif-isriti.png"
                             ></Card.Img>
                         </Col>
                         <Col sm={12} md={8}>

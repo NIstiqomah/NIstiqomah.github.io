@@ -121,7 +121,7 @@ const Project = () => {
                                         }
                                     >
                                         <img
-                                            src="../src/assets/girl-cat.png"
+                                            src="/girl-cat.png"
                                             alt="girl"
                                             width="360px"
                                         />
