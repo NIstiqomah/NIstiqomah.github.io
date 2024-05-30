@@ -5,7 +5,7 @@ import { ArrowLeft, ClockFill } from 'react-bootstrap-icons';
 import { useNavigate } from 'react-router-dom';
 
 const Project = () => {
-    const navigate = useNavigate()
+    const navigate = useNavigate();
     const content = [
         {
             title: 'SIKS-NG',
@@ -60,52 +60,57 @@ const Project = () => {
                         backgroundColor: '#feece2',
                         border: 'none',
                         color: '#1C123E',
-                        marginTop: 20,
-                        marginRight: 4,
                     }}
                     onClick={() => {
                         navigate('/');
                     }}
                 >
-                    <ArrowLeft /> Back
+                    <Stack direction="horizontal" gap={2}>
+                        <div className="back-icon">
+                            <ArrowLeft />
+                        </div>
+                        <span>Back</span>
+                    </Stack>
                 </Button>
                 <h2>PROJECT</h2>
                 <Row>
                     <Col sm={12} md={9}>
                         {content.map((el, id) => {
                             return (
-                                <Card key={id}>
-                                    <Card.Header>
+                                <Card className="projects d-flex justify-content-center" key={id}>
+                                    <Card.Body style={{ paddingTop: 0 }}>
                                         <Card.Title>
                                             <Stack direction="horizontal">
                                                 <div className="p-1">{el.title}</div>
                                                 <div className="p-2 ms-auto">
-                                                    <ClockFill /> {el.period}
+                                                    <h6>
+                                                        <ClockFill /> {el.period}
+                                                    </h6>
                                                 </div>
                                             </Stack>
                                         </Card.Title>
-                                    </Card.Header>
-                                    <Card.Body style={{ marginTop: -14 }}>
-                                        {el.text}
-                                        <Stack direction="horizontal" gap={1}>
-                                            {el.use.map((use, id) => {
-                                                return (
-                                                    <div key={id}>
-                                                        <Badge
-                                                            pill
-                                                            className="badge-outline"
-                                                            bg="dark"
-                                                            style={{
-                                                                color: '#feece2',
-                                                                border: 'solid 1px #feece2',
-                                                            }}
-                                                        >
-                                                            {use}
-                                                        </Badge>
-                                                    </div>
-                                                );
-                                            })}
-                                        </Stack>
+                                        <Card.Text>
+                                            {el.text}
+                                            <Stack direction="horizontal" gap={1}>
+                                                {el.use.map((use, id) => {
+                                                    return (
+                                                        <div key={id}>
+                                                            <Badge
+                                                                pill
+                                                                className="badge-outline"
+                                                                bg="dark"
+                                                                style={{
+                                                                    color: '#feece2',
+                                                                    border: 'solid 1px #feece2',
+                                                                }}
+                                                            >
+                                                                {use}
+                                                            </Badge>
+                                                        </div>
+                                                    );
+                                                })}
+                                            </Stack>
+                                        </Card.Text>
                                     </Card.Body>
                                 </Card>
                             );
@@ -120,11 +125,7 @@ const Project = () => {
                                             isVisible ? 'animate__animated animate__backInDown' : ''
                                         }
                                     >
-                                        <img
-                                            src="/girl-cat.png"
-                                            alt="girl"
-                                            width="360px"
-                                        />
+                                        <img src="/girl-cat.png" alt="girl" />
                                     </div>
                                 )}
                             </TrackVisibility>
